@@ -1,7 +1,7 @@
 /* sorts $list_to_sort and prints the sorted list in debug output */
 
 /* sorts variable and prints to debug output */
-@import '103-sort_list';
+@import '103-sort_list.scss';
 
 @each $name in $list_to_sort {
     @debug #{$name};
